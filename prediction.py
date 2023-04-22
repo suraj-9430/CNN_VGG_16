@@ -15,7 +15,7 @@ from tensorflow.keras.applications.vgg16 import preprocess_input
 
 loaded_model=pickle.load(open('D:/practiceml/CNN/cat_dog.sav','rb'))
 
-my_image = load_img('D:/practiceml/CNN/dataset/check_set/dog.4013.jpg', target_size=(224, 224))
+my_image = load_img('D:/practiceml/CNN/dataset/check_set/cat.4014.jpg', target_size=(224, 224))
 plt.imshow(my_image)
 plt.show()
 #preprocess the image
